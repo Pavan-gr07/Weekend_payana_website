@@ -1,22 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Blog from "./pages/Blogs";
-import About from "./pages/About";
-import Terms from "./pages/TermsAndCondition";
-import Privacy from "./pages/PrivacyPolicy";
+import Router from "./routes/index";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/terms" element={<Terms />} />
-        <Route path="/privacy" element={<Privacy />} />
-      </Routes>
-    </Router>
-  );
+  return <Router />;
 }
 
 export default App;
