@@ -27,13 +27,27 @@ const settings = {
   dots: true,
   infinite: true,
   speed: 500,
-  slidesToShow: 3,
+  slidesToShow: 3, // default (desktop)
   slidesToScroll: 1,
   arrows: true,
   nextArrow: <NextArrow />,
   prevArrow: <PrevArrow />,
-  responsive: [{ breakpoint: 768, settings: { slidesToShow: 1 } }],
+  responsive: [
+    {
+      breakpoint: 1024, // tablet & small laptop
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 768, // mobile
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
 };
+
 
 const UpcomingTrip = () => {
   return (
