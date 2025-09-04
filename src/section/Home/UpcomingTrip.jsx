@@ -31,14 +31,14 @@ const settings = {
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 3000, // auto slide every 3s
+  autoplaySpeed: 3000,
   pauseOnHover: true,
   cssEase: "ease-in-out",
-  arrows: true,
+  // arrows: true,
   nextArrow: <NextArrow />,
   prevArrow: <PrevArrow />,
-  centerMode: true, // highlights center card
-  centerPadding: "40px", // spacing around center card
+  centerMode: true,
+  centerPadding: "40px",
   responsive: [
     {
       breakpoint: 1280,
@@ -51,11 +51,13 @@ const settings = {
       breakpoint: 768,
       settings: {
         slidesToShow: 1,
-        centerPadding: "20px",
+        centerMode: false,   // ❌ disable centerMode on mobile
+        centerPadding: "0px",
       },
     },
   ],
 };
+
 
 const UpcomingTrip = () => {
   return (
@@ -73,9 +75,10 @@ const UpcomingTrip = () => {
         <div className="relative">
           <Slider {...settings}>
             {upcomingTrips.slice(0, 6).map((trip) => (
-              <div key={trip.id} className="px-3">
+              <div key={trip.id} className="px-3 min-w-[250px]">
                 <TripCard trip={trip} />
               </div>
+
             ))}
           </Slider>
         </div>
