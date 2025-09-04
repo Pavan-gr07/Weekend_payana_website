@@ -15,6 +15,7 @@ const Banner = () => {
         <h1 className="text-6xl md:text-7xl font-bold mb-6 animate-pulse">
           Step Out, Explore More
           <span className="text-yellow-400 block">Adventure Awaits</span>
+          <span className="text-yellow-400 block">Comming Soon...</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           Explore breathtaking destinations, create unforgettable memories, and
