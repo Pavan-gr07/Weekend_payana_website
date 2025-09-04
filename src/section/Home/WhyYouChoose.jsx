@@ -7,7 +7,7 @@ const WhyYouChoose = () => {
      <div className="max-w-7xl mx-auto">
        <div className="text-center mb-16">
          <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
-           Why Choose <span className="text-yellow-500">TripVibe</span>
+           Why Choose <span className="text-yellow-500">Weekend Payana</span>
          </h2>
          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
            We make travel dreams come true with our exceptional services and unforgettable experiences

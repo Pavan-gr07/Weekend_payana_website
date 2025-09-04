@@ -9,7 +9,7 @@ const CTASection = () => {
           Ready for Your Next Adventure?
         </h2>
         <p className="text-xl text-black mb-8 opacity-90">
-          Join thousands of travelers who have discovered amazing destinations with TripVibe
+          Join thousands of travelers who have discovered amazing destinations with Weekend Payana
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="bg-black hover:bg-gray-800 text-yellow-400 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-2xl">
