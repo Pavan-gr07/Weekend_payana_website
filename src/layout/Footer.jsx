@@ -61,7 +61,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                 Alternate Phone:{" "}
+                  Alternate Phone:{" "}
                   <a
                     href="tel:+917406887985"
                     className="text-yellow-500 hover:underline"

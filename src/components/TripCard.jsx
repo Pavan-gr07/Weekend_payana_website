@@ -53,7 +53,7 @@ const TripCard = ({ trip }) => {
           </svg>
           <span>{trip.duration}</span>
         </div>
-        <button className="w-full bg-black hover:bg-gray-800 text-yellow-400 py-3 rounded-lg font-semibold transition-colors duration-300">
+        <button className="w-full bg-black hover:bg-gray-800 cursor-pointer text-yellow-400 py-3 rounded-lg font-semibold transition-colors duration-300">
           Book Now
         </button>
       </div>
