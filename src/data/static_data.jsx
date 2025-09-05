@@ -288,3 +288,42 @@ export const features = [
 ];
 
 
+
+
+
+// src/data/blogs.js
+export const blogs = [
+  {
+    id: 1,
+    title: "Top 5 Weekend Trips from Bangalore",
+    excerpt:
+      "Explore the best short trips near Bangalore to escape your city life. Perfect for family, friends, or solo travelers.",
+    image:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    author: "Pavan G R",
+    date: "2025-09-01",
+    slug: "top-5-weekend-trips-bangalore",
+  },
+  {
+    id: 2,
+    title: "Packing Essentials for a One-Day Trip",
+    excerpt:
+      "Don’t forget these must-have items for a smooth and fun one-day getaway with Weekend Payana.",
+    image:
+      "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    author: "Pavan G R",
+    date: "2025-08-25",
+    slug: "packing-essentials-one-day-trip",
+  },
+  {
+    id: 3,
+    title: "How to Choose the Perfect Weekend Trip",
+    excerpt:
+      "Tips and tricks for selecting the best trip for your interests, time, and budget.",
+    image:
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    author: "Pavan G R",
+    date: "2025-08-20",
+    slug: "choose-perfect-weekend-trip",
+  },
+];

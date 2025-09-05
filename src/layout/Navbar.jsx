@@ -82,7 +82,7 @@ const Navbar = () => {
               </div> */}
 
               <a
-                href="#blogs"
+                href="/blogs"
                 className="text-black hover:text-white px-3 py-2 rounded-md text-sm font-semibold transition-all duration-300 hover:bg-black"
               >
                 Blogs
