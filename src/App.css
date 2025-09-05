@@ -1,2 +1,36 @@
 @import "tailwindcss";
 
+.to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    color: yellow;
+    text-align: center;
+    z-index: 10;
+}
+
+
+.whatsapp {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    color: #07ca6f;
+    z-index: 10;
+    animation: dance 3.3s ease-in-out infinite;
+
+}
+
+@keyframes dance {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    0% {
+        transform: translateY(0);
+    }
+}

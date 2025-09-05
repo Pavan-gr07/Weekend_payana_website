@@ -58,6 +58,8 @@ export const oneDayTrips = [
     id: 1,
     title: "Lonavala Hill Station",
     location: "Maharashtra, India",
+    rating: 4.7,
+
     image:
       "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     price: "₹1,999",
@@ -67,6 +69,7 @@ export const oneDayTrips = [
     id: 2,
     title: "Mahabaleshwar Gardens",
     location: "Maharashtra, India",
+    rating: 4.7,
     image:
       "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     price: "₹2,299",
@@ -76,6 +79,7 @@ export const oneDayTrips = [
     id: 3,
     title: "Lavasa Lake City",
     location: "Maharashtra, India",
+    rating: 4.7,
     image:
       "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     price: "₹1,799",
@@ -84,6 +88,7 @@ export const oneDayTrips = [
   {
     id: 4,
     title: "Lavasa Lake City",
+    rating: 4.7,
     location: "Maharashtra, India",
     image:
       "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
@@ -94,6 +99,7 @@ export const oneDayTrips = [
     id: 5,
     title: "Lavasa Lake City",
     location: "Maharashtra, India",
+    rating: 4.7,
     image:
       "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     price: "₹1,799",
@@ -103,6 +109,7 @@ export const oneDayTrips = [
     id: 6,
     title: "Lavasa Lake City",
     location: "Maharashtra, India",
+    rating: 4.7,
     image:
       "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     price: "₹1,799",
@@ -118,7 +125,7 @@ export const testimonials = [
     rating: 5,
     text: "Amazing experience with Weekend Payana! The Goa trip was perfectly organized and the team was so professional.",
     image:
-      "https://images.unsplash.com/photo-1494790108755-2616c8671b6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
   },
   {
     id: 2,
@@ -131,6 +138,24 @@ export const testimonials = [
   },
   {
     id: 3,
+    name: "Anjali Patel",
+    location: "Bangalore",
+    rating: 5,
+    text: "Kerala backwaters were magical! The houseboat experience and hospitality were exceptional.",
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+  },
+  {
+    id: 4,
+    name: "Anjali Patel",
+    location: "Bangalore",
+    rating: 5,
+    text: "Kerala backwaters were magical! The houseboat experience and hospitality were exceptional.",
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+  },
+  {
+    id: 5,
     name: "Anjali Patel",
     location: "Bangalore",
     rating: 5,
@@ -261,3 +286,5 @@ export const features = [
     ),
   },
 ];
+
+
