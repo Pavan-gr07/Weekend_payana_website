@@ -47,7 +47,7 @@ const Contact = () => {
                             <Mail className="text-yellow-500" /> support@weekendpayana.com
                         </div>
                         <div className="flex items-center gap-3 text-gray-700">
-                            <Phone className="text-yellow-500" /> +91 91085 60381
+                            <Phone className="text-yellow-500" /> +91  9449334629
                         </div>
                         <div className="flex items-center gap-3 text-gray-700">
                             <MapPin className="text-yellow-500" /> NO. 417 JAKKUR LAYOUT, 11TH CROSS NEAR AYYAPPA TEMPLE YELAHANKA BENGALORE-560064

@@ -53,6 +53,12 @@ export const upcomingTrips = [
   },
 ];
 
+
+
+export const recentTrips = [
+
+]
+
 export const oneDayTrips = [
   {
     id: 1,
@@ -165,13 +171,27 @@ export const testimonials = [
   },
 ];
 
+
+import natravati_truk from "../assets/netravathi_truck.jpg";
+import kodekanal from "../assets/kodekanal.jpg";
+import kurial from "../assets/kurial.jpg";
+import gangadikal from "../assets/gangadikal.jpg";
+import dandali from "../assets/dandali.jpg";
+import murdeshwara from "../assets/murdeshwara.jpg";
+
 export const galleryImages = [
-  "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  // "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  // "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  // "https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  // "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  // "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  // "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+  natravati_truk,
+  kodekanal,
+  kurial,
+  gangadikal,
+  dandali,
+  murdeshwara
 ];
 
 export const faqs = [

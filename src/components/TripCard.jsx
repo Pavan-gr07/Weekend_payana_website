@@ -1,63 +1,35 @@
-import React from "react";
+import { ChevronRight, Clock, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const TripCard = ({ trip }) => {
   return (
-    <div
-      key={trip.id}
-      className="bg-white rounded-2xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300"
-    >
-      <div className="relative h-64">
-        <img
-          src={trip.image}
-          alt={trip.title}
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute top-4 right-4 bg-yellow-500 text-black px-3 py-1 rounded-full font-semibold">
-          {trip.price}
-        </div>
-      </div>
-      <div className="p-6">
-        <div className="flex items-center justify-between mb-3">
-          <h3 className="text-xl font-bold text-black">{trip.title}</h3>
-          <div className="flex items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5 text-yellow-500 fill-current"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-            </svg>
-            <span className="ml-1 text-gray-600">{trip.rating}</span>
+    <Link to="/trip-details" className="block h-full">
+      <div className="group h-full bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col border border-gray-100 relative top-0 hover:-top-1">
+        <div className="relative h-56 overflow-hidden">
+          <img src={trip.image} alt={trip.title} className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
+          <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-gray-800 flex items-center gap-1 shadow-sm">
+            <Clock className="w-3 h-3 text-yellow-500" />
+            {trip.duration}
           </div>
         </div>
-        <div className="flex items-center text-gray-600 mb-4">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-4 h-4 mr-2"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-            <line x1="16" y1="2" x2="16" y2="6" />
-            <line x1="8" y1="2" x2="8" y2="6" />
-            <line x1="3" y1="10" x2="21" y2="10" />
-          </svg>
-          <span>{trip.duration}</span>
+        <div className="p-5 flex flex-col flex-grow">
+          <h3 className="text-lg font-bold text-gray-900 line-clamp-1 group-hover:text-yellow-600 transition-colors mb-2">{trip.title}</h3>
+          <div className="flex items-center text-gray-500 text-sm mb-4">
+            <MapPin className="w-4 h-4 mr-1 text-gray-400" />
+            {trip.location}
+          </div>
+          <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">
+            <div className="flex flex-col">
+              <span className="text-xs text-gray-400 uppercase font-semibold">Starts at</span>
+              <span className="text-lg font-bold text-gray-900">{trip.price}</span>
+            </div>
+            <div className="bg-yellow-400 group-hover:bg-yellow-500 text-black p-2 rounded-full transition-colors shadow-sm">
+              <ChevronRight className="w-5 h-5" />
+            </div>
+          </div>
         </div>
-        <button className="w-full bg-black hover:bg-gray-800 cursor-pointer text-yellow-400 py-3 rounded-lg font-semibold transition-colors duration-300">
-          Book Now
-        </button>
       </div>
-    </div>
+    </Link>
   );
 };
 

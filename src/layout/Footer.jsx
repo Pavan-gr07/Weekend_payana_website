@@ -57,16 +57,7 @@ const Footer = () => {
                     href="tel:+919108560381"
                     className="text-yellow-500 hover:underline"
                   >
-                    +91 91085 60381
-                  </a>
-                </li>
-                <li>
-                  Alternate Phone:{" "}
-                  <a
-                    href="tel:+917406887985"
-                    className="text-yellow-500 hover:underline"
-                  >
-                    +91 74068 87985
+                    +91  9449334629
                   </a>
                 </li>
                 <li>
